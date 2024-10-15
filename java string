@@ -1,0 +1,21 @@
+package basics;
+
+public class string2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s1="viswanathan";
+String s2="Viswanathan";
+String s3=new String("viswanathan");
+String s4=new String("viswanathan");
+String s5="viswa";
+System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s3));
+System.out.println(s1.equals(s4));
+System.out.println(s1==s2);
+System.out.println(s1==s4);
+
+
+	}
+
+}
